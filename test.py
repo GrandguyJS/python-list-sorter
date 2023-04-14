@@ -1,30 +1,25 @@
 def sort(input):
-    originalinput = len(input)
+
     sorted = []
 
-    while len(sorted) != originalinput:
-        print(f"{len(sorted)};{originalinput}")
-        smallest = None
+    while len(input) != 0:
+        smallest = [None,None]
         for index,i in enumerate(input):
-            
-            if smallest is None:
-                smallest = [i, index]
-
-
-            elif i<smallest[0]:
-
-                smallest = [i, index]
-
+            if smallest[0] is not None and i<smallest[0]: 
+                smallest = [i, index]  
             else:
-                pass
-        print(str(smallest) + "abc")
+                if smallest[0] is not None:
+                    pass
+                else:
+                    smallest = [i, index]  
+                
         input.pop(smallest[1])
         sorted.append(smallest[0])
 
         
     return sorted
 
-        
+
 
 
 
