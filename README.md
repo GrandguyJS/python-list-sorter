@@ -10,3 +10,5 @@ It isn't really efficent but it does the job!
 Author: GrandguyJS
 
 Thanks for reading!
+
+PS: I still can't figure out how to use git...
