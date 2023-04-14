@@ -8,3 +8,5 @@ It iterates trough the array and finds the smallest number. It appends that to t
 It isn't really efficent but it does the job!
 
 Author: GrandguyJS
+
+Thanks for reading!
