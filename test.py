@@ -19,7 +19,7 @@ def sort(input):
         
     return sorted
 
-print(sort([2,345345,21]))
+
 
 
 
