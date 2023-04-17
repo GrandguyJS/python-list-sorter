@@ -11,4 +11,4 @@ def test(arr, num):
             high = mid-1
     return -1
 
-# type(arr) = list; type(num) = int;
+# type(arr) = list; type(num) = int
